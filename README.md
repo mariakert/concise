@@ -18,3 +18,12 @@ sudo docker run -di -p 5432:5432 postgres
 ``` 
 java -jar concise_trial-0.0.1-SNAPSHOT.jar 
 ```
+
+- Use Postman or other REST client to run POST commands (url - http://localhost:8888/data) with data following the structure below
+```
+{
+  "data": "your data here"
+}
+```
+
+- Use Postman or browser to run GET commands (url - http://localhost:8888/data?search=YOURSEARCH)
